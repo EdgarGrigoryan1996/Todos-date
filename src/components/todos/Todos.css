@@ -1,0 +1,31 @@
+.todo-block{
+	cursor:pointer
+}
+
+/* popup */
+
+.popup-todos{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.678);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.popup-todos-block{
+	width: 600px;
+	min-height: 250px;
+	background-color: #fff;
+	border-radius: 15px;
+	position: relative;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
